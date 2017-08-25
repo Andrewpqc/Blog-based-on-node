@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08a97bf2-17b9-4980-8fa4-2629a2f9a26f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/lenovo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/mongoose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/user.server.model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/笔记" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -253,12 +247,20 @@
       <workItem from="1503278182054" duration="8275000" />
       <workItem from="1503329600036" duration="269000" />
       <workItem from="1503501249428" duration="852000" />
-      <workItem from="1503661154576" duration="1214000" />
+      <workItem from="1503661154576" duration="1261000" />
     </task>
+    <task id="LOCAL-00001" summary="增加了笔记">
+      <created>1503662411762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503662411762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10610000" />
+    <option name="totallyTimeSpent" value="10657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,6 +343,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加了笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了笔记" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
