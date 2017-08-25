@@ -1,0 +1,143 @@
+模式(Schema)的拓展
+///////////////////////////////////////////////////////////////////////////////////////////////
+0.模式创建的两种方法
+var mongoose=require("mongoose");
+mongoose.connect('mongodb://username:password@hostname:port/databaseName')
+    ///////////////////////////////////////////////
+    //单独创建一个模式
+    var UserSchema=new mongoose.Schema({
+        nickname:String,
+        hashPwd:String,
+        createTime:Date
+    });
+    //将模式注册到mongoose中，得到模型
+    var User=mongoose.model("User",UserSchema);
+    /////////////////////////////////////////////
+
+    ////////////////////////////////////////////
+    //直接创建模型，传入一个对象，mongoose会自动将传入的对象当做模式处理
+    var User=mongoose.model("User",{
+        nickname:String,
+        hashPwd:String,
+        createTime:Date
+    });
+    ////////////////////////////////////////////
+1.默认值
+var mongoose=require('mongoose');
+var UserSchema=new mongoose.Schema({
+    nickname:{type:String,default:"new user"},
+    regTime:{type:Date,default:Date.now}
+});
+这里我们就给UserSchema中的nickname,regTime设置了默认值，当我们更据
+其所创建的模型实例化一个对象，而不给他传入对应的值时，就会使用默认值
+
+2.模式修饰符
+预定义修饰符
+trim：去掉字符串两端空格的修饰符
+用法：
+var UserSchema=new mongoose.Schema({
+    nickname:{type:String,trim:true},
+    regTime:{type:Date,default:Date.now}
+});
+上面这一个模式中nickname加了一个预定义的修饰符，他在吧数据存入数据
+库之前会自动去掉nickname两端的空格
+
+自定义修饰符setter,getter
+setter修饰符是我们将数据存到数据库之前，或者说我们创建一个模型的时候触发
+var BlogSchema=new mongoose.Schema({
+    url:{type:String,
+         set:function(url){
+         //我们的操作
+         //这里的url就是这一个字段的值
+         if(0!===url.indexOf('http://')&&0!===url.indexOf('https://')){
+            return 'http://'+url
+         }else{
+         return url
+         }
+         }
+       }
+});
+如上，我自定义了一个setter修饰符，他检查用户博客链接中是否有‘http://’或‘https://’
+前缀，没有就加上，有就不作操作，这样存入数据库中的就是都有前缀的
+注：url.indexOf("http://")是检查url这一个字符串中是否有“http://”,如果有则返回
+开始出现的索引，没有返回-1
+
+getter修饰符是数据库文档转化成模型的时候触发
+var BlogSchema=new mongoose.Schema({
+    url:{type:String,
+         get:function(url){
+         //我们的操作
+         //这里的url就是这一个字段的值
+         if(0!===url.indexOf('http://')&&0!===url.indexOf('https://')){
+            return 'http://'+url
+         }else{
+         return url
+         }
+         }
+       }
+});
+上面我们用了get修饰符，是我们从数据库中取出文档时，mongoose会自动将rul字段的值串给get修饰符
+我们在模型中使用的url字段就是get修饰符处理之后的结果，并不是数据库中存储的结果
+
+3.虚拟属性　Schema.virtual()
+有些东西我们不需要存储导数据库中，我们可以通过其他的属性验算等到，也就是说我们可以不存储这个
+东西，但是我们可以通过转换让他同实际存储没有区别
+
+var PersonSchema=new mongoose.Schema({
+    firstname:String,
+    lastname:String
+});
+PersonSchema.virtual("fullname").get(function(){
+    return this.firstname+" "+this.lastname
+});
+上面我们为PersonSchema创建了一个虚拟属性fullname,语法：
+模式的.virtual()方法内传入一个参数（虚拟属性的名字），后面链式调用get()方法，传入一个回调函数，return
+的内容就是该虚拟属性的值，this表示当前的Schema
+
+//注册叨叨ｍｏｄｅｌ
+var Person=mongoose.model("Person",PersonSchema);
+
+//实例化一个对象
+var Andrew=new Person({
+    firstname:"qianchao",
+    lastname:"peng",
+});
+
+//打印虚拟属性
+console.log(Andrew.fullname);
+//输出:qianchao peng
+
+
+//有的时候我们要把一个模型实例转化为Ｊｓｏｎ格式，我们看看会发生什么？
+console.log(JSON.stringify(Andrew));
+//输出：{"firstname":"qianchao","lastname":"peng","_id":"bhdsdsa2f6s5dfsdjfs5f445sfsdbh"}
+//可以看出，Ｊｓｏｎ中没有刚刚的虚拟属性fullname，那如果我们需要将fullname也一起传到前端呢？
+//我们要做一个设置
+PersonSchema.set("toJSON",{getters:true,virtual:true});做上这一设置后，虚拟属性的值也会一起传过去
+
+４．索引
+索引的目的
+加快查询速度
+
+唯一索引
+标示唯一性
+
+辅助索引
+帮助查询，加快查询速度
+
+var PersonSchema=new mongoose.Schema({
+    idNumber:{type:Number,unique:true},//这里的就是唯一索引
+    regTime:{type:Date,default:Date.now,index:true}//这里的是辅助索引
+});
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+模型(Model)的方法
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+1.mongoose中内置了许多的模型方法，如：find,findOne,save,update,remove
+
+数据校验
+中间间
+DBref
