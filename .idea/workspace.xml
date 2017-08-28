@@ -2,11 +2,364 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08a97bf2-17b9-4980-8fa4-2629a2f9a26f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/css/Jcrop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/demo_files/pool.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/demo_files/sago.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/demo_files/sagomod.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/demo_files/sagomod.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/img/loading-sm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/107.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/108.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/109.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/110.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/111.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/112.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/113.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/114.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/115.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/116.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/117.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/118.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/119.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/121.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/122.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/123.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/124.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/125.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/126.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/127.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/128.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/129.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/130.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/131.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/132.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/133.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/134.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/images/static.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/filemanager/images/file-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/filemanager/images/file-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/filemanager/images/folder-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/filemanager/images/folder-64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/filemanager/images/go-up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/image/images/align_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/image/images/align_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/image/images/align_top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/image/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/multiimage/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/multiimage/images/select-files-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/multiimage/images/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/common/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/common/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/common/flash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/common/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/common/media.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/common/rm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/default/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/default/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/qq/editor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/font/summernote.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/font/summernote.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/font/summernote.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/sign-in-sign-up.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/css/jquery.Jcrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/css/jquery.Jcrop.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/crop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/demo_files/demos.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/demo_files/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/non-image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/styling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/tutorial1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/tutorial2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/tutorial3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/tutorial4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/demos/tutorial5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/js/jquery.Jcrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/js/jquery.Jcrop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/js/jquery.color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/about-jquery/jquery-1.12.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/about-jquery/jquery-migrate-1.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/about-jquery/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/about-jquery/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/about-jquery/jquery.ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/about-jquery/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/bootstrap-3.3.4-dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/css/fileinput.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/css/fileinput.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/examples/index-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/jquery插件库.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_LANG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/fileinput_locale_zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/js/jquery-2.0.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap-fileinput/www.jq22.com.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/kindeditor-all-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/kindeditor-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/lang/zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/lang/zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/anchor/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/autoheight/autoheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/baidumap/baidumap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/baidumap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/baidumap/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/clearhtml/clearhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/code/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/code/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/code/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/emoticons/emoticons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/filemanager/filemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/fixtoolbar/fixtoolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/flash/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/insertfile/insertfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/lineheight/lineheight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/link/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/map/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/media/media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/multiimage/multiimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/pagebreak/pagebreak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/plainpaste/plainpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/preview/preview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/quickformat/quickformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/table/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/template/html/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/template/html/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/template/html/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/plugins/wordpaste/wordpaste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/default/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/qq/qq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/kindeditor/themes/simple/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ar-AR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-bg-BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ca-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-cs-CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-da-DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-el-GR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-es-EU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-fa-IR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-fi-FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-gl-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-he-IL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-hr-HR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-id-ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-it-IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ja-JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ko-KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-lt-LT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-lt-LV.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-mn-MN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-nb-NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-nl-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-pl-PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ro-RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ru-RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-sk-SK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-sl-SI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-sr-RS-Latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-sr-RS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-ta-IN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-th-TH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-tr-TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-uk-UA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-vi-VN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/lang/summernote-zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/plugin/databasic/summernote-ext-databasic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/plugin/databasic/summernote-ext-databasic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/plugin/hello/summernote-ext-hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/plugin/specialchars/summernote-ext-specialchars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/summernote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/dist/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sign-in-sign-up.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/sign-in-sign-up.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/auth.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mongoose.js" afterPath="$PROJECT_DIR$/config/mongoose.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.server.model.js" afterPath="$PROJECT_DIR$/models/user.server.model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/笔记" afterPath="$PROJECT_DIR$/笔记" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,78 +375,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="622">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/error.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongoose.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/mongoose.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.server.model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.server.model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -102,19 +395,58 @@
       <file leaf-file-name="笔记" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔记">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="2509">
+              <caret line="293" column="0" lean-forward="true" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="mongoose.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="693" column="18" lean-forward="true" selection-start-line="693" selection-start-column="18" selection-end-line="693" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign-in-sign-up.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/sign-in-sign-up.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+              <folding>
+                <marker date="1503888889603" expanded="true" signature="1371:1627" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="1667:1875" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="1915:2022" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="2136:2215" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="2280:3886" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="2335:3672" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="2375:2615" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="2655:2915" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="2955:3217" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="3257:3490" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="3530:3640" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="4051:4632" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="4094:4625" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="4126:4618" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="4161:4379" ph="..." />
+                <marker date="1503888889603" expanded="false" signature="4276:4283" ph="×" />
+                <marker date="1503888889603" expanded="true" signature="4412:4465" ph="..." />
+                <marker date="1503888889603" expanded="true" signature="4500:4607" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +456,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -134,11 +467,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config/config.js" />
-        <option value="$PROJECT_DIR$/models/user.server.model.js" />
-        <option value="$PROJECT_DIR$/笔记" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/views/register.html" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/register.ejs" />
+        <option value="$PROJECT_DIR$/views/sign-in-sign-up.ejs.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/models/user.server.model.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/sign-in-sign-up.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/sign-in-sign-up.js" />
+        <option value="$PROJECT_DIR$/routes/auth.js" />
+        <option value="$PROJECT_DIR$/笔记" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/sign-in-sign-up.ejs" />
         <option value="$PROJECT_DIR$/config/mongoose.js" />
       </list>
     </option>
@@ -161,13 +504,15 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="55" />
     <option name="y" value="-4" />
-    <option name="width" value="1307" />
-    <option name="height" value="733" />
+    <option name="width" value="1311" />
+    <option name="height" value="772" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -183,7 +528,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,18 +544,34 @@
             <path>
               <item name="Blog-based-on-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog-based-on-node" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog-based-on-node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog-based-on-node" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog-based-on-node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog-based-on-node" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog-based-on-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog-based-on-node" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Blog-based-on-node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog-based-on-node" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,6 +581,15 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.11.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/plugins/about-jquery" />
+      <recent name="$PROJECT_DIR$/public/stylesheets" />
+      <recent name="$PROJECT_DIR$/public/plugins" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,6 +604,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.bin/www" />
+  <component name="SFStoredExecutionPersistentComponent">
+    <executions>
+      <execution name="Default" sourceToExecute="" />
+    </executions>
+    <lastSelectedExecutionName>Default</lastSelectedExecutionName>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -247,7 +623,12 @@
       <workItem from="1503278182054" duration="8275000" />
       <workItem from="1503329600036" duration="269000" />
       <workItem from="1503501249428" duration="852000" />
-      <workItem from="1503661154576" duration="1521000" />
+      <workItem from="1503661154576" duration="2286000" />
+      <workItem from="1503663497280" duration="604000" />
+      <workItem from="1503665265473" duration="3840000" />
+      <workItem from="1503710232320" duration="28867000" />
+      <workItem from="1503753960631" duration="721000" />
+      <workItem from="1503797300559" duration="23636000" />
     </task>
     <task id="LOCAL-00001" summary="增加了笔记">
       <created>1503662411762</created>
@@ -267,7 +648,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10917000" />
+    <option name="totallyTimeSpent" value="69350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,20 +660,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
+    <frame x="55" y="-4" width="1311" height="772" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.49473685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4265625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36631945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.221875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17651632" sideWeight="0.49473685" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.646875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1784897" sideWeight="0.50526315" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -361,35 +745,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -397,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -429,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
           <caret line="96" column="11" lean-forward="true" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -469,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4968">
           <caret line="138" column="55" lean-forward="false" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,38 +912,158 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4968">
           <caret line="138" column="55" lean-forward="false" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/public/plugins/Jcrop-0.9.12/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/bootstrap-3.3.7-dist/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/aria.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="319" column="18" lean-forward="false" selection-start-line="319" selection-start-column="18" selection-end-line="319" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/kindeditor/license.txt" />
+    <entry file="file://$PROJECT_DIR$/public/plugins/jquery-ui-1.12.1.custom/AUTHORS.txt" />
+    <entry file="file://$PROJECT_DIR$/public/plugins/about-jquery/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/about-jquery/jquery-1.12.4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.ejs" />
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="72">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="412" column="4" lean-forward="false" selection-start-line="412" selection-start-column="4" selection-end-line="412" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/error.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/about-jquery/jquery.ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5075">
+          <caret line="9577" column="14" lean-forward="false" selection-start-line="9577" selection-start-column="14" selection-end-line="9577" selection-end-column="14" />
+          <folding>
+            <marker date="1393326236000" expanded="true" signature="29453:29506" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="29520:29544" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="45184:45201" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="86300:86317" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="100545:100561" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="141112:141118" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="216521:216565" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="342022:342029" ph="..." />
+            <marker date="1393326236000" expanded="true" signature="342177:342184" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="668" column="22" lean-forward="false" selection-start-line="668" selection-start-column="22" selection-end-line="668" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/sign-in-sign-up.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="185" column="21" lean-forward="true" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/sign-in-sign-up.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.server.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2509">
+          <caret line="293" column="0" lean-forward="true" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -609,50 +1076,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔记">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="622">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.server.model.js">
+    <entry file="file://$PROJECT_DIR$/views/sign-in-sign-up.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <marker date="1503888889603" expanded="true" signature="1371:1627" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="1667:1875" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="1915:2022" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="2136:2215" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="2280:3886" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="2335:3672" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="2375:2615" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="2655:2915" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="2955:3217" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="3257:3490" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="3530:3640" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="4051:4632" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="4094:4625" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="4126:4618" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="4161:4379" ph="..." />
+            <marker date="1503888889603" expanded="false" signature="4276:4283" ph="×" />
+            <marker date="1503888889603" expanded="true" signature="4412:4465" ph="..." />
+            <marker date="1503888889603" expanded="true" signature="4500:4607" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mongoose.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="693" column="18" lean-forward="true" selection-start-line="693" selection-start-column="18" selection-end-line="693" selection-end-column="18" />
           <folding />
         </state>
       </provider>

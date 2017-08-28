@@ -139,5 +139,155 @@ var PersonSchema=new mongoose.Schema({
 1.mongoose中内置了许多的模型方法，如：find,findOne,save,update,remove
 
 数据校验
-中间间
+预定义的验证器：required,Number(max,min),String(enum,match)
+
+var mongoose=require('mongoose');
+mongoose.connect("mongodb://username:password@hostname:port/databaseName");
+OrderSchema=new mongoose.Schema({
+    count:{
+        type:Number,
+        required:true,  //必填
+        max:1000,
+        min:10
+    },
+    status:{
+        type:String,
+        enum:["success","failed"]　　//必须为枚举中的值
+    },
+    desc:{
+        type:String,
+        match:/book/g, //必须匹配这里的值
+        validate:function(desc){
+            return desc.length>=10 //自定义的验证器
+        },
+    },
+});
+
+var Order=mongoose.model("Order",OrderSchema);
+
+var order=new Order();
+order.count=20;
+order.status="success";
+order.desc="This is a book";
+
+order.save(function(err){
+    if(err){
+        console.log('failed');
+        return;
+    }
+    console.log('success');
+});
+
+中间件
+//中间件
+/*类型：文档中间件（init/validate/save/remove）,查询中间件（count/find/findOne/findOneAndRemove
+findOneAndUpdate/update）
+
+同时，每种类型的每个中间件都有预处理中间件和后置处理中间件
+ */
+
+var mongoose=require('mongoose');
+mongoose.connect('username:password@hostname:port/databaseName');
+
+//建立模式
+var ResellerSchema=new mongoose.Schema({
+	address:{
+		type:String,
+	},
+});
+
+//这是一个后置中间件，在保存之后执行，其实这里是一个串行的操作
+ResellerSchema.post("save",function(next){
+	console.log("This a post middleware");
+	next()
+})；
+
+//下面的这个是前置中间件，在保存之前执行，而且是并行的，注意和上面的情况对比
+//这里的down是另外的额那个需要并行操作的回调函数
+ResellerSchema.pre("save",true,function(next,down){
+	console.log('This is a pre middleware');
+	next()
+
+});
+
+
+
+var Resellor=mongoose.model("Resellor",ResellerSchema);
+
+var resellor=new Reseller({
+	address:"First Street,People Road"
+});
+
+resellor.save(function(err){
+	if (err){
+		console.log("ERROR");
+		return;
+	}
+	console.log("success")
+});
+
+
+
+
 DBref
+//DBref
+//在关系型的数据库中，有外键的用法，可以让一条语句去引用另外的表里的数据，
+//在mongodb中同样有类似的机制　poplute()
+
+var mongoose = require('mogoose');
+mogoose.connect('username:password@hostname:port/databaseName');
+
+var User = mongoose.model("User", {
+	name: String
+});
+
+var Post = mongoose.model('Post', {
+	title: String,
+	author: {
+		type: mogoose.Schema.ObjectId,
+		ref: "User"
+	}
+});
+
+var user = new User({
+	name: "Andrew"
+});
+
+var post = new Post({
+	title: "Hello,World!",
+	author: User
+});
+
+user.save(function(err) {
+	if (err) {
+		console.log('save user error')
+		return;
+	}
+	post.save(function(err) {
+		if (err) {
+			console.log('save post error');
+			return;
+		}
+
+		//查询，填充一个字段
+		Post.findOne().poplute("author")． exec(function(err, doc) {
+			if (err) {
+				console.log('error');
+				return;
+			}
+			console.log(doc)
+		});
+
+	})
+});
+
+cookie
+session
+express-session模块
+md5加密
+crypto
+
+图片处理
+http://www.graphicsmagick.org/
+npm install --save gm
+

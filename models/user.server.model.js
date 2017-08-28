@@ -1,6 +1,7 @@
 var mongoose=require('mongoose');
 
 mongoose.model("User",{
-    uid:{type:Number,unique:true},
-    nickname:{type:String}
+    nickname:{type:String,unique:true},
+    password:{type:String},
+    email:{type:String,unique:true}
 });
